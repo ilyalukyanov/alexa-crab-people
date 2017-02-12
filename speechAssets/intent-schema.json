@@ -1,0 +1,10 @@
+{
+  "intents": [
+    {
+      "intent": "CrabPeopleIntent",
+      "slots": [
+        { "name": "Quantity", "type": "AMAZON.NUMBER" }
+      ]
+    }
+  ]
+}

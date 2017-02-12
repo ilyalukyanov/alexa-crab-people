@@ -1,0 +1,28 @@
+{
+  "name": "alexa-crab-people",
+  "version": "1.0.0",
+  "description": "A simple skill that repeats the Crab People mantra from South Park",
+  "main": "index.js",
+  "scripts": {
+    "dist": "webpack -p"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "amazon",
+    "crab-people",
+    "south-park"
+  ],
+  "author": "Ilya Lukyanov",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^2.2.1"
+  }
+}
